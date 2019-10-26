@@ -98,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HashMap.h" />
-    <ClInclude Include="HLSDK.h" />
+    <ClInclude Include="hlsdk.h" />
     <ClInclude Include="MetaFuncs.h" />
     <ClInclude Include="MetaMod.h" />
     <ClInclude Include="Types.h" />
