@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include <Windows.h>
+#include <windows.h>
 
-#include "Types.h"
-#include "UTIL.h"
-#include "MetaFuncs.h"
-#include "HashMap.h"
+#include "types.h"
+#include "util.h"
+#include "metafuncs.h"
+#include "hashmap.h"
 
 extern DLL_FUNCTIONS GameDLLFuncs;
 extern NEW_DLL_FUNCTIONS GameNewDLLFuncs;

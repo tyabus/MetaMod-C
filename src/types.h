@@ -1,7 +1,7 @@
 #pragma once
 #include <stdint.h>
 
-#include "HLSDK.h"
+#include "hlsdk.h"
 
 #define NOXREF
 #define DLLEXPORT __declspec(dllexport)

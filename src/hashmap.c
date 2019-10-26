@@ -1,9 +1,9 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <Windows.h>
+#include <windows.h>
 
-#include "HashMap.h"
+#include "hashmap.h"
 
 #define HM_GetBucketIndex(HashMap, Hash) Hash & (HashMap->BucketCount - 1)
 

@@ -1,11 +1,11 @@
 #include <stdint.h>
 #include <stddef.h>
 #include <stdio.h>
-#include <Windows.h>
+#include <windows.h>
 
-#include "Types.h"
-#include "UTIL.h"
-#include "HashMap.h"
+#include "types.h"
+#include "util.h"
+#include "hashmap.h"
 
 #define LocateValidCharacter(Buffer) while (*Buffer > 0 && *Buffer < 33) Buffer++;
 #define CheckEOF(Buffer, Ret) if (*Buffer == 0) return Ret;

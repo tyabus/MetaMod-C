@@ -13,19 +13,19 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D12A7A6A-6308-493E-900E-035B31EC3729}</ProjectGuid>
     <RootNamespace>MetaModC</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>NotSet</CharacterSet>
   </PropertyGroup>
@@ -41,15 +41,15 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetExt>.dll</TargetExt>
-    <OutDir>D:\CSDS\cstrike\addons\metamod\dlls\</OutDir>
-    <IntDir>..\Debug\Int\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
     <TargetName>metamod</TargetName>
     <IncludePath>..\..\SDK\hlsdk\utils;..\..\SDK\hlsdk\public;..\..\SDK\hlsdk\pm_shared;..\..\SDK\hlsdk\engine;..\..\SDK\hlsdk\dlls;..\..\SDK\hlsdk\dedicated;..\..\SDK\hlsdk\common;..\..\SDK\hlsdk\cl_dll;$(IncludePath)</IncludePath>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>D:\CSDS\cstrike\addons\metamod\dlls\</OutDir>
-    <IntDir>..\Release\Int\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
     <TargetName>metamod</TargetName>
     <TargetExt>.dll</TargetExt>
   </PropertyGroup>
@@ -89,20 +89,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HashMap.c" />
-    <ClCompile Include="MetaFuncs.c" />
-    <ClCompile Include="MetaMod.c" />
-    <ClCompile Include="UTIL.c" />
-    <ClCompile Include="GameDLL.c" />
-    <ClCompile Include="Main.c" />
+    <ClCompile Include="gamedll.c" />
+    <ClCompile Include="hashmap.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="metafuncs.c" />
+    <ClCompile Include="metamod.c" />
+    <ClCompile Include="util.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HashMap.h" />
+    <ClInclude Include="hashmap.h" />
     <ClInclude Include="hlsdk.h" />
-    <ClInclude Include="MetaFuncs.h" />
-    <ClInclude Include="MetaMod.h" />
-    <ClInclude Include="Types.h" />
-    <ClInclude Include="UTIL.h" />
+    <ClInclude Include="metafuncs.h" />
+    <ClInclude Include="metamod.h" />
+    <ClInclude Include="types.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

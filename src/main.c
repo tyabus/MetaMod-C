@@ -1,13 +1,11 @@
 #include <stddef.h>
 #include <stdio.h>
-#include <Windows.h>
+#include <windows.h>
 
-#include "Types.h"
-#include "UTIL.h"
-#include "MetaFuncs.h"
-#include "HashMap.h"
-
-#undef NEAR
+#include "types.h"
+#include "util.h"
+#include "metafuncs.h"
+#include "hashmap.h"
 
 extern HMODULE GameDLL;
 extern int RequestIDCounter;

@@ -1,12 +1,12 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stdarg.h>
-#include <Windows.h>
+#include <windows.h>
 
-#include "Types.h"
-#include "UTIL.h"
-#include "MetaMod.h"
-#include "HashMap.h"
+#include "types.h"
+#include "util.h"
+#include "metamod.h"
+#include "hashmap.h"
 
 extern Plugin *Plugins;
 extern int PluginCount;

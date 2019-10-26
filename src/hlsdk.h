@@ -1,6 +1,5 @@
 #pragma once
 #include <stdint.h>
-#include <Windows.h>
 
 #define MAX_ENT_LEAFS 48
 #define MAX_LEVEL_CONNECTIONS 16

@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdint.h>
-#include <Windows.h>
+#include <windows.h>
 
-#include "Types.h"
-#include "UTIL.h"
-#include "HashMap.h"
+#include "types.h"
+#include "util.h"
+#include "hashmap.h"
 
 extern enginefuncs_t EngineFuncs;
 extern globalvars_t *GlobalVars;

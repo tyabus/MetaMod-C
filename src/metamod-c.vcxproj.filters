@@ -9,48 +9,44 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.c">
+    <ClCompile Include="gamedll.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameDLL.c">
+    <ClCompile Include="hashmap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="UTIL.c">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MetaMod.c">
+    <ClCompile Include="util.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MetaFuncs.c">
+    <ClCompile Include="metamod.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HashMap.c">
+    <ClCompile Include="metafuncs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Types.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="hlsdk.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HashMap.h">
+    <ClInclude Include="hashmap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MetaFuncs.h">
+    <ClInclude Include="metafuncs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="UTIL.h">
+    <ClInclude Include="metamod.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MetaMod.h">
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
